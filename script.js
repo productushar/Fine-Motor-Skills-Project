@@ -1,4 +1,4 @@
-//Variables for navigation to and fro the MainPage and Activity Pages
+//Variables for navigation to and from the MainPage and Activity Pages
 
 var pages1 = false;
 var pages2 = false;
@@ -53,7 +53,7 @@ let t1 = 0;
 let t2 = 0;
 let t3 = 30;
 
-//preload sound function
+//Preload sound function
 
 function preload() {
   soundFormats('mp3', 'wav');
@@ -596,7 +596,9 @@ function Activity3Page() {
   text('Activity 3: Mouse Tracking Game', 480, 30, 1420, 150);
 
 }
+
 // Button on GUI page that goes to Activity 3 page
+
 function myButtonA3() {
 
   myButton3 = new Clickable();
@@ -620,6 +622,7 @@ function myButtonA3() {
 
   }
 }
+
 // Button in upper left corner of Activity 1 page that takes user back to main menu
 
 function mainButtonA1() {
@@ -691,7 +694,9 @@ function mainButtonA2() {
     }
   }
 }
+
 // Button in upper left corner of Activity 3 page that takes user back to main menu
+
 function mainButtonA3() {
 
   activity3Button = new Clickable();
@@ -715,8 +720,6 @@ function mainButtonA3() {
 }
 
 //Libraries--------------------------------------------------------------------------
-
-
 
 
 //clickable--------------------------------------------------------------------------
