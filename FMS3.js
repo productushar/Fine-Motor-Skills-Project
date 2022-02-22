@@ -222,7 +222,7 @@ function draw() {
       }
 
       if (keyPressed) {
-        if (key === black[0] && pages2 === true) {
+        if (key.toLowerCase() === black[0] && pages2 === true) {
           textPositionFinal -= textWidth(black[0]);
 
           print(black[0]);
