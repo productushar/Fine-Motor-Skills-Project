@@ -1,4 +1,4 @@
-//Variables for navigation to and from the MainPage and Activity Pages
+//Variables for navigation to and fro the MainPage and Activity Pages
 
 var pages1 = false;
 var pages2 = false;
