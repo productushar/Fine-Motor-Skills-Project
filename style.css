@@ -1,14 +1,7 @@
 html, body {
-  font-family: 'Amatic-Bold', cursive;
   margin: 0;
   padding: 0;
 }
 canvas {
   display: block;
-}
-@font-face {
-  font-family: 'Amatic-Bold';
-  src: url('/Assets/Amatic-Bold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
